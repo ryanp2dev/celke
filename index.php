@@ -25,6 +25,7 @@
     echo "<hr>";
 
    $cc = 38564.32 ;
+   /*A funcao number_format e utilizada para converter o valor em Reak*/
    echo  "Valor na conta corrente: R$" . number_format($cc,2,',','.') . '<br>';
    
    $debito = 200.16;
