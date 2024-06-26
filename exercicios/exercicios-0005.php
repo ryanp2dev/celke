@@ -28,3 +28,22 @@ função “number_format”.
 Nome do projeto – exercicio0008.php
 WWW.CELKE.COM.BR
 1*/
+
+?>
+
+<?php
+// Online PHP compiler to run PHP program online
+// Print "Try programiz.pro" message
+/*
+Implemente um programa para somar a comissão de R$ 2.320,29 mais o
+salário de R$ 7.600,25. No final do programa imprima na tela o valor da soma.
+Também converta o valor para o formato do Real, imprima o valor formatado
+para o modelo do Real, usando a função “number_format”
+
+*/
+
+$comissao = 2320.29;
+$salario = 7600.25;
+$salario_total = $comissao + $salario;
+echo number_format($salario_total,2,",",".");
+?>
